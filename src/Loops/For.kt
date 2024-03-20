@@ -9,6 +9,21 @@ fun main() {
         println(a)
     }
 
+    ///printing single latter
+    for(letter in 'A'..'Z'){
+        println(letter)
+    }
+
+    //print next value like -> a -> b
+    for (i in "Jnskjm "){
+        print(i + 1)
+    }
+
+    //repeat function
+    repeat(times = 5){
+        println("Hey I am Android Developer!")
+    }
+
     //printing values 10 to 1 reverse form
     for (b in 10 downTo 1){
         println(b)
