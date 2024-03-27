@@ -3,10 +3,10 @@ fun main() {
     //Loops In Kotlin
 
     //for loop
-//    val elements = arrayOf("Sagar", "Mango", "Audi", "Kiwi", "Jay")
-//    for(i in elements){
-//        println(i)
-//    }
+    val elements = arrayOf("Sagar", "Mango", "Audi", "Kiwi", "Jay")
+    for(i in elements){
+        println(i)
+    }
 
     //print number using fo loop
     for (num in 1..5) {
