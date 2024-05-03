@@ -34,5 +34,8 @@ fun main() {
     val lowerCase = name.lowercase()
     println("Uppercase String is $upperCase and Lowercase String is $lowerCase")
 
+    val withSpace = "   Hey I am an Senior Android Dev "
+    val trimmed = withSpace.trim()
+    println("Trimmed string is $trimmed")
 
 }
