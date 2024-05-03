@@ -42,4 +42,6 @@ fun main() {
     val contain = name.contains("Sagar")
     println("Does the contains Sagar? $contain")
 
+    val replace = name.replace('a','A')
+    println("New string after replacing the character is $replace")
 }
