@@ -48,4 +48,7 @@ fun main() {
     val splitString = name.split(" ")
     println("Substrings are $splitString")
 
+    val price = 65.32
+    println("The Price of Mango is \$$price")
+
 }
