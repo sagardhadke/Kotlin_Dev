@@ -24,5 +24,8 @@ fun main() {
     val getLength = name.length
     println("The length of the String is $getLength")
 
+    val charIndex = name.get(4)
+    println("The character of index 4 is $charIndex")
+
 
 }
