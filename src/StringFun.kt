@@ -38,4 +38,8 @@ fun main() {
     val trimmed = withSpace.trim()
     println("Trimmed string is $trimmed")
 
+
+    val contain = name.contains("Sagar")
+    println("Does the contains Sagar? $contain")
+
 }
