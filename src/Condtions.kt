@@ -19,7 +19,7 @@ fun ageVerify(age:Int){
 }
 
 
-fun checkNumberSign(number : Int) : String{
+fun checkNumberSign(number : Int) : StringFun{
     return if (number > 0){
         "Positive"
     }else if (number < 0){
