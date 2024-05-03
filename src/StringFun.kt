@@ -44,4 +44,8 @@ fun main() {
 
     val replace = name.replace('a','A')
     println("New string after replacing the character is $replace")
+
+    val splitString = name.split(" ")
+    println("Substrings are $splitString")
+
 }
