@@ -30,5 +30,9 @@ fun main() {
     val subString = name.substring(2,7)
     println("Substring of index 2 to 7 is $subString")
 
+    val upperCase = name.uppercase()
+    val lowerCase = name.lowercase()
+    println("Uppercase String is $upperCase and Lowercase String is $lowerCase")
+
 
 }
