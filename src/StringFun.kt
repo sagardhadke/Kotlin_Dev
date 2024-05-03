@@ -27,5 +27,8 @@ fun main() {
     val charIndex = name.get(4)
     println("The character of index 4 is $charIndex")
 
+    val subString = name.substring(2,7)
+    println("Substring of index 2 to 7 is $subString")
+
 
 }
