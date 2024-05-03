@@ -20,4 +20,9 @@ fun main() {
     * information from strings. */
 
 
+    val name = "Sagar Dhadke"
+    val getLength = name.length
+    println("The length of the String is $getLength")
+
+
 }
