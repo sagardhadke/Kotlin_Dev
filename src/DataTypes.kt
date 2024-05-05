@@ -29,4 +29,11 @@ fun main() {
     val g : Boolean = true // true and false
     val h : Char = 'A' // 'A-Z' and 'a-z' @
 
+    //find min and max values
+
+    val findMin : Int = Int.MIN_VALUE
+    val findMax : Int = Int.MAX_VALUE
+    println(findMin)
+    println(findMax)
+
 }
