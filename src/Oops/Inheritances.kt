@@ -1,8 +1,8 @@
 package Oops
 
 open class Manna{    //parent
-    var house = "25000.sq.feet"
-    fun myCompany(){
+   open var house = "25000.sq.feet"
+   open fun myCompany(){
         println("Chocolate Factory")
         println("Dry Fruits Factory")
         println("My All Money")
@@ -10,6 +10,14 @@ open class Manna{    //parent
 }
 
 class Gampu : Manna(){
+
+    override var house: String
+        get() = super.house
+        set(value) {}
+
+    override fun myCompany() {
+        super.myCompany()
+    }
 
     fun itsMe(){
         println(house)
